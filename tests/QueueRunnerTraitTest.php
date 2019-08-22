@@ -42,6 +42,15 @@ class QueueRunnerTraitTest extends ExistingSiteBase
     }
 
     /**
+     * {@inheritdoc}
+     */
+    public function tearDown()
+    {
+        $this->clearQueue($this->queueName);
+        parent::tearDown();
+    }
+
+    /**
      * @covers ::clearQueue
      */
     public function testClearQueue()
