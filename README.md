@@ -2,6 +2,8 @@
 
 Provides a trait for use with the [Drupal Test Traits](https://gitlab.com/weitzman/drupal-test-traits) library.
 
+[![Build Status](https://travis-ci.com/drupaltest/queue-runner-trait.svg?branch=master)](https://travis-ci.com/drupaltest/queue-runner-trait)
+
 ## Installation
 
 ```
