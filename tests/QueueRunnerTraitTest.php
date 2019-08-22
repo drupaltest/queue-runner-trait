@@ -1,6 +1,6 @@
 <?php
 
-namespace weitzman\DrupalTestTraits\Tests;
+namespace DrupalTest\QueueRunnerTrait\Tests;
 
 use weitzman\DrupalTestTraits\ExistingSiteBase;
 use DrupalTest\QueueRunnerTrait\QueueRunnerTrait;
