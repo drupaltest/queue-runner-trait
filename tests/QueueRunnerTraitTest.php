@@ -6,7 +6,7 @@ use weitzman\DrupalTestTraits\ExistingSiteBase;
 use DrupalTest\QueueRunnerTrait\QueueRunnerTrait;
 
 /**
- * @coversDefaultClass \weitzman\DrupalTestTraits\QueueRunnerTrait
+ * @coversDefaultClass \DrupalTest\QueueRunnerTrait\QueueRunnerTrait
  */
 class QueueRunnerTraitTest extends ExistingSiteBase
 {
