@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="drupaltest/queue-runner-trait">
+  <description>PHP CodeSniffer configuration for Drupal Queue Runner Trait.</description>
+  <file>./src</file>
+  <file>./tests</file>
+  <rule ref="PSR2"></rule>
+  <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
+    <!-- This file by definition has side effects and declares symbols. -->
+    <exclude-pattern>./src/bootstrap.php</exclude-pattern>
+  </rule>
+</ruleset>
