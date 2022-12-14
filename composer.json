@@ -3,7 +3,7 @@
     "description": "A Drupal queue runner trait for use with Drupal Test Traits.",
     "type": "drupal-dtt",
     "require": {
-        "weitzman/drupal-test-traits": "^1.2"
+        "weitzman/drupal-test-traits": "^1.2 || ^2"
     },
     "require-dev": {
         "drupal/core": "^8.7",
