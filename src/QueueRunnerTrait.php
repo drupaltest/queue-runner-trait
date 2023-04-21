@@ -22,10 +22,7 @@ trait QueueRunnerTrait
      */
     protected function clearQueue($queue_name)
     {
-        $this->container->get('database')
-            ->delete('queue')
-            ->condition('name', $queue_name)
-            ->execute();
+      $this->container->get('queue')->get($queue_name)->deleteQueue();
     }
 
     /**
